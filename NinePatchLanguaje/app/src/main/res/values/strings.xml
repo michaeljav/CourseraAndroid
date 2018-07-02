@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">multilenguaje_NinePatchImagen</string>
+    <string name="titulo">Bienvenido</string>
+    <string name="btnTexto">Entrar</string>
+    <string name="DescripcionImagen">Imagen Fondo</string>
+    <string name="titulofoto">foto</string>
+</resources>

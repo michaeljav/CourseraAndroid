@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <!--android:background="@drawable/marciano_nine"-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/titulofoto"
+
+
+        android:background="@drawable/marciano2" />
+
+
+    <!--<ImageView    android:layout_width="wrap_content"   -->
+        <!--android:layout_height="wrap_content"  -->
+        <!--app:srcCompat="@drawable/marcianito_miprimer"  -->
+    <!--.android:id="@+id/imageView"   -->
+    <!--android:background="@drawable/marcianito_miprimer_proyecto_android"/>-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/titulo"
+        android:textColor="@color/colorAccent"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:text="@string/btnTexto"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+</RelativeLayout>

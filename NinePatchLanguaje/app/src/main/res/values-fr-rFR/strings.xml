@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">multilenguaje_NinePatchImagen</string>
+    <string name="titulo">Bienvenue</string>
+    <string name="btnTexto">Entrer</string>
+    <string name="DescripcionImagen">Imagen Fondo</string>
+
+</resources>
