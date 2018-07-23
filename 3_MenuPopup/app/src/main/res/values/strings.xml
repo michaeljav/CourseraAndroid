@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MenuOpciones</string>
+    <string name="Setting">Setting</string>
+    <string name="text_Abaout">About</string>
+    <string name="textoAboutScreen">About</string>
+    <string name="settingTextScreen">Setting</string>
+    <string name="text_menuedit">Edit</string>
+    <string name="textmenudelete">Delete</string>
+    <string name="NombreTextView">Michael Javier Mota</string>
+    <string name="imagen_view">Imagen View</string>
+    <string name="imagen_details">Imagen Details</string>
+</resources>

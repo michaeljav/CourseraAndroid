@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/mpopImagenView"
+    android:title="@string/imagen_view"></item>
+
+    <item  android:id="@+id/mpopImagenDetails"
+        android:title="@string/imagen_details"></item>
+</menu>

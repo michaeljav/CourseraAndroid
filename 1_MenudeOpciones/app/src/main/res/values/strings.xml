@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MenuOpciones</string>
+    <string name="Setting">Setting</string>
+    <string name="text_Abaout">About</string>
+    <string name="textoAboutScreen">About</string>
+    <string name="settingTextScreen">Setting</string>
+</resources>

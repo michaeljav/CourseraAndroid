@@ -1,0 +1,1 @@
+app to work with  Recyclerview and cardview. the recyclerview is like  a listview
