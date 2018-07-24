@@ -1,4 +1,4 @@
-package com.exampleandroiddemottest.miscontantos;
+package com.exampleandroiddemottest.miscontantos.pojo;
 
 public class Contacto {
 

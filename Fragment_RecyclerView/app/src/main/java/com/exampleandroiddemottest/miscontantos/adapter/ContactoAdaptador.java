@@ -1,5 +1,5 @@
 //<editor-fold desc="Description">
-package com.exampleandroiddemottest.miscontantos;
+package com.exampleandroiddemottest.miscontantos.adapter;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,6 +12,10 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.exampleandroiddemottest.miscontantos.pojo.Contacto;
+import com.exampleandroiddemottest.miscontantos.DetalleContacto;
+import com.exampleandroiddemottest.miscontantos.R;
 
 import java.util.ArrayList;
 
