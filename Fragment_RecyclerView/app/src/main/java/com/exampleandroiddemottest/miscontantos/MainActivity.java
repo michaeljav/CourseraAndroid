@@ -40,14 +40,6 @@ public class MainActivity extends AppCompatActivity {
             setSupportActionBar(toolbar);
         }
 
-
-
-
-
-
-
-
-
     }
 
     //lista de fragmen a mostrar
