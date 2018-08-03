@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this,"Tu dispositivo no tiene bluetooth",Toast.LENGTH_SHORT).show();
         }
 
-        //si no esta abilitado el  bluetooth
+        //si no esta abilitado el  bluetooth lo habilito
         if (!bluetoothAdapter.isEnabled()){
             Intent habilitarBletoothIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
             startActivityForResult(habilitarBletoothIntent,CODIGO_SOLICITUD_HABILITAR_BLUETOOTH);

@@ -1,6 +1,7 @@
 package com.exampleandroiddemottest.miscontantos.presentador;
 
 import android.content.Context;
+import android.widget.Toast;
 
 import com.exampleandroiddemottest.miscontantos.db.ConstructorContactos;
 import com.exampleandroiddemottest.miscontantos.fragment.IReclyclerViewFragmentView;
@@ -21,6 +22,7 @@ public class RecyclerViewFragmentPresenter implements  IRecyclerViewFragmentPres
         this.iReclyclerViewFragmentView = iReclyclerViewFragmentView;
         this.context = context;
         obtenerContactosBaseDatos();
+
     }
 
     @Override
@@ -37,4 +39,5 @@ public class RecyclerViewFragmentPresenter implements  IRecyclerViewFragmentPres
        iReclyclerViewFragmentView.inicializarAdaptadorRV(iReclyclerViewFragmentView.crearAdaptador(contactos));
        iReclyclerViewFragmentView.generarLinearLayoutVertical();
     }
+
 }

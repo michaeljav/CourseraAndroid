@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public interface IReclyclerViewFragmentView {
 
     public void generarLinearLayoutVertical();
+
     public ContactoAdaptador crearAdaptador(ArrayList<Contacto> contactos);
 
     public void inicializarAdaptadorRV(ContactoAdaptador adaptador);

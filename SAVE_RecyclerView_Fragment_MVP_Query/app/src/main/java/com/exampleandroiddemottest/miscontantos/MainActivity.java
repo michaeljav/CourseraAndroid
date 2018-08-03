@@ -47,14 +47,16 @@ public class MainActivity extends AppCompatActivity {
     fragments.add(new RecyclerViewFragment());
     fragments.add(new PerfilFragment());
 
-  return  fragments;
+    return  fragments;
 
     }
+
     //add list fragmen to  adapter
     private void setUpViewPager(){
 
         viewPager.setAdapter(new PageAdapter(getSupportFragmentManager(),agregarFragments()));
         tabLayout.setupWithViewPager(viewPager);
+
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_contacts);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_stars);

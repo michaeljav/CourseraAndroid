@@ -22,7 +22,7 @@ public class RecyclerViewFragment extends Fragment implements IReclyclerViewFrag
 
 
     ArrayList<Contacto> contactos;
-    private RecyclerView listaCOntactos;
+    private RecyclerView RecyclerViewlistaCOntactos;
     private IRecyclerViewFragmentPresenter presenter;
 
 
@@ -32,7 +32,7 @@ public class RecyclerViewFragment extends Fragment implements IReclyclerViewFrag
 //        return super.onCreateView(inflater, container, savedInstanceState);
                 View v = inflater.inflate(R.layout.fragment_recyclerview,container,false);
 
-                listaCOntactos = v.findViewById(R.id.rvContactos);
+                RecyclerViewlistaCOntactos = v.findViewById(R.id.rvContactos);
 
                 //llamar el presentador
                 presenter = new RecyclerViewFragmentPresenter(this,getContext());
@@ -40,15 +40,12 @@ public class RecyclerViewFragment extends Fragment implements IReclyclerViewFrag
             return  v;
     }
 
-
-
-
     @Override
     public void generarLinearLayoutVertical() {
         //Forma en mostrar  el en el recycler;
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());
         llm.setOrientation(LinearLayoutManager.VERTICAL);
-        listaCOntactos.setLayoutManager(llm);
+        RecyclerViewlistaCOntactos.setLayoutManager(llm);
 
     }
 
@@ -60,6 +57,6 @@ public class RecyclerViewFragment extends Fragment implements IReclyclerViewFrag
 
     @Override
     public void inicializarAdaptadorRV(ContactoAdaptador adaptador) {
-        listaCOntactos.setAdapter(adaptador);
+        RecyclerViewlistaCOntactos.setAdapter(adaptador);
     }
 }
